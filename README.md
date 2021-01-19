@@ -60,3 +60,17 @@ DemoServer                                                  //服务代码库，
 │   └── protoc-3.13.0.0
 └── utils                                                   //可以放一些小工具
 ```
+
+
+# 快速开始
+服务本身可以在我们DIY的容器里编译，包括了常用的运行时环境  
+启动容器：  
+```
+docker compose up -d
+```  
+
+进入容器:  
+```
+docker exec -ti name /bin/bash
+```
+
